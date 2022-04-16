@@ -1,11 +1,7 @@
-# Sample Snack app
+# Tapa no Tatu
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+**Tapa no Tatu** is an hardware project for the **mole game**, but whith armadillos!
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+This repository contains the aplication that works as a remote interface to the phisical circuit. The project uses [paho-mqtt](https://www.npmjs.com/package/paho-mqtt), a [MQTT](https://mqtt.org/) lib for Python an js, to communicate along the devices. The hardware declaration and python script can be found [here](https://github.com/DamaralHenrique/LabDig_I/tree/feature/TapaNoTatu).
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+The app uses [React](https://reactjs.org/) and was developed using [Expo](https://expo.dev/) website. You can find the Expo Snack [here](https://snack.expo.dev/@henrquehdm/tapa-no-tatu). You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators.
